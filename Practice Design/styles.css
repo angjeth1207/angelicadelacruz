@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Header */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #000;
+    background: #fff;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+    color: #ffcc00; /* Hover color */
+}
+
+/* Mobile Menu */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        background: #000;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#about {
+    background: #f4f4f4;
+}
+
+#work-experience ul {
+    list-style: none;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#skills .skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill {
+    border: 1px solid #000;
+    padding: 20px;
+    flex: 1;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: #ffcc00;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}

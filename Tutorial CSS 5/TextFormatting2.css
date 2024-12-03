@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.lastleft{
+    text-align-last: left;
+}
+.lastright{
+    text-align-last: right;
+}
+.lastjustify{
+    text-align: justify;
+    text-align-last: justify;
+}

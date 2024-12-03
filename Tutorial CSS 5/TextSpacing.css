@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+.text-indent{
+    text-align: justify;
+    text-indent: 48px;
+}
+.letter-spacing{
+    text-align: justify;
+    letter-spacing: 5px;
+}
+.word-spacing{
+    text-align: justify;
+    word-spacing: 10px;
+}
+.line-height{
+    text-align: justify;
+    line-height: 20px;
+}
+.white-space{
+    text-align: justify;
+    white-space: pre;
+}
+.white-space1{
+    text-align: justify;
+    white-space: nowrap;
+}
+.white-space2{
+    text-align: justify;
+    white-space: normal;
+}

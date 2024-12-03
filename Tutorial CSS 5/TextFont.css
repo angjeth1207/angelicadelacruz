@@ -1,0 +1,19 @@
+h1{
+
+}
+.size{
+    font-size: 25px;
+}
+.family{
+    font-family: Segoe UI;
+}
+.style{
+    font-style: italic;
+}
+.weight{
+    font-family: verdana;
+    font-weight: 1000;
+}
+.variant{
+    font-variant: small-caps;
+}

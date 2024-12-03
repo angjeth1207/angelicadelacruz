@@ -1,0 +1,15 @@
+button{
+    font-style: italic;
+    background-color: green;
+}
+button:disabled{
+    opacity:0.2;
+    background-color: red;
+}
+.txtname:focus{
+    border: 2px solid red;
+    outline: none;
+}
+input:checked{
+    scale: 1.5;
+}

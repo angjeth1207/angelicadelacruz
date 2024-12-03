@@ -1,0 +1,94 @@
+.linear{
+    background-color: tomato;
+    transition: 1s;
+    width: 100px;
+    
+}
+.linear:hover{
+    background-color: blue;
+    width: 200px;
+    
+}
+.linear:active{
+    background-color: lightgreen;
+}
+.ease{
+    background-color: tomato;
+    transition: 1s;
+    width: 100px;
+    
+}
+.ease:hover{
+    background-color: blue;
+    width: 200px;
+    
+}
+.ease:active{
+    background-color: lightgreen;
+}
+.ease-in{
+        background-color: tomato;
+        transition: 1s;
+        width: 100px;
+        }
+.ease-in:hover{
+        background-color: blue;
+        width: 200px;
+        
+    }
+.ease-in:active{
+        background-color: lightgreen;
+}
+.ease-out{
+            background-color: tomato;
+            transition: 1s;
+            width: 100px;
+            
+}
+.ease-out:hover{
+            background-color: blue;
+            width: 200px;
+            
+        }
+.ease-out:active{
+            background-color: lightgreen;
+}
+
+.ease-in-out{
+                background-color: tomato;
+                transition: 1s;
+                width: 100px;
+                
+            }
+.ease-in-out:hover{
+                background-color: blue;
+                width: 200px;
+                
+            }
+.ease-in-out:active{
+                background-color: lightgreen;
+            }
+.cubic-bezier--{
+                    background-color: tomato;
+                    transition: 1s;
+                    width: 100px;
+                    
+                }
+.cubic-bezier--:hover{
+                    background-color: blue;
+                    width: 200px;
+                    
+                }
+.cubic-bezier--:active{
+                    background-color: lightgreen;
+                }
+
+.Jethro{
+    background-color: tomato;
+    width: 100px;
+    transition: width 3s ease-in 1s;
+}
+.Jethro:hover{
+    background-color: blue;
+    width: 200px;
+}
